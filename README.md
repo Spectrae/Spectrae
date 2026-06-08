@@ -34,18 +34,3 @@ Architecting distributed microservices and agentic AI workflows. I focus on end-
 > `build > break > fix > document > push`
 
 Prioritizing a documentation-first, hands-on approach over passive consumption. Focused on writing self-explanatory code, structuring repositories for seamless async onboarding, and managing independent technical workflows.
-
-## 📌 Pinned Work
-* **[SpillSense-Ai](https://github.com/Spectrae/SpillSense-Ai)**: Deep learning-powered oil spill detection system processing SAR satellite imagery.
-* **[http-server](https://github.com/Spectrae/http-server)**: A minimal TCP web server written in C that serves an HTML file.
-* **[chat-system](https://github.com/Spectrae/chat-system)**: A simple TCP/IP-based chat application consisting of a server and client.
-
-## 💻 Activity
-* [Spectrae/oil-spill-detection](https://github.com/Spectrae/oil-spill-detection)
-* [levianeesh/SpillSense-Ai](https://github.com/levianeesh/SpillSense-Ai)
-* [Spectrae/chat-system](https://github.com/Spectrae/chat-system)
-
-## 🔗 Contact
-* **Website**: [rickxd.vercel.app](https://rickxd.vercel.app/)
-* **X**: [@imrickmondal](https://x.com/imrickmondal)
-* **LinkedIn**: [in/imrickmondal](https://linkedin.com/in/imrickmondal)
