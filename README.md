@@ -7,9 +7,3 @@ Building distributed microservices and applied AI pipelines. My focus is on stri
 > `build > break > fix > document > push`
 
 Prioritizing a documentation-first, hands-on approach. Focused on writing self-explanatory code, structuring repositories for seamless async onboarding, and managing independent technical workflows.
-
-## 📊 Git Velocity
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Spectrae&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&hide_title=true&hide_rank=true&icon_color=2f81f7&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" />
-</div>
