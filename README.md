@@ -11,5 +11,5 @@ Prioritizing a documentation-first, hands-on approach. Focused on writing self-e
 ## 📊 Git Velocity
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Spectrae&theme=dark&hide_border=true&background=0d1117&ring=2f81f7&fire=2f81f7&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=c9d1d9" alt="GitHub Contribution Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Spectrae&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&hide_title=true&hide_rank=true&icon_color=2f81f7&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" />
 </div>
