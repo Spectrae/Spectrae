@@ -8,21 +8,8 @@ Building distributed microservices and applied AI pipelines. My focus is on stri
 
 Prioritizing a documentation-first, hands-on approach. Focused on writing self-explanatory code, structuring repositories for seamless async onboarding, and managing independent technical workflows.
 
-## 📊 Impact & Output
+## 📊 Git Velocity
 
-### ⚡ Git Velocity & Contribution Overview
-
-<p align="left">
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=Spectrae&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=2f81f7&icon_color=2f81f7&text_color=c9d1d9&bg_color=0d1117" 
-    alt="Core Engineering Activity Stats" 
-    height="195" 
-  />
-  <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=Spectrae&layout=compact&hide_border=true&title_color=2f81f7&icon_color=2f81f7&text_color=c9d1d9&bg_color=0d1117&langs_count=5" 
-    alt="Top Engineering Languages" 
-    height="195" 
-  />
-</p>
-
----
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Spectrae&theme=dark&hide_border=true&background=0d1117&ring=2f81f7&fire=2f81f7&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=c9d1d9" alt="GitHub Contribution Streak" />
+</div>
