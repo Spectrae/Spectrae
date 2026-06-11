@@ -22,19 +22,18 @@ jobs:
           script: |
             const fs = require('fs');
 
-            // CHANGE THIS TO YOUR GITHUB USERNAME
             const username = 'Spectrae';
 
             console.log(`Fetching stats for ${username}`);
 
-            const prResult =
+            const mergedPrResult =
               await github.rest.search.issuesAndPullRequests({
-                q: `author:${username} is:pr`
+                q: `author:${username} is:pr is:merged`
               });
 
-            const issueResult =
+            const resolvedIssueResult =
               await github.rest.search.issuesAndPullRequests({
-                q: `author:${username} is:issue`
+                q: `assignee:${username} is:issue is:closed`
               });
 
             const repos = await github.paginate(
@@ -51,23 +50,23 @@ jobs:
               stars += repo.stargazers_count;
             });
 
-            const prCount = prResult.data.total_count;
-            const issueCount = issueResult.data.total_count;
+            const mergedPrCount = mergedPrResult.data.total_count;
+            const resolvedIssueCount = resolvedIssueResult.data.total_count;
 
-            console.log(`PRs: ${prCount}`);
-            console.log(`Issues: ${issueCount}`);
+            console.log(`Merged PRs: ${mergedPrCount}`);
+            console.log(`Resolved Issues: ${resolvedIssueCount}`);
             console.log(`Stars: ${stars}`);
 
             let readme = fs.readFileSync('README.md', 'utf8');
 
             readme = readme.replace(
-              /<!-- PR_COUNT -->.*<!-- \/PR_COUNT -->/,
-              `<!-- PR_COUNT -->${prCount}<!-- /PR_COUNT -->`
+              /<!-- MERGED_PR_COUNT -->.*<!-- \/MERGED_PR_COUNT -->/,
+              `<!-- MERGED_PR_COUNT -->${mergedPrCount}<!-- /MERGED_PR_COUNT -->`
             );
 
             readme = readme.replace(
-              /<!-- ISSUE_COUNT -->.*<!-- \/ISSUE_COUNT -->/,
-              `<!-- ISSUE_COUNT -->${issueCount}<!-- /ISSUE_COUNT -->`
+              /<!-- RESOLVED_ISSUE_COUNT -->.*<!-- \/RESOLVED_ISSUE_COUNT -->/,
+              `<!-- RESOLVED_ISSUE_COUNT -->${resolvedIssueCount}<!-- /RESOLVED_ISSUE_COUNT -->`
             );
 
             readme = readme.replace(
