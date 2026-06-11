@@ -14,17 +14,17 @@ Prioritizing a documentation-first, hands-on approach. Focused on writing self-e
 <tr>
 <td align="center">
 
-### <!-- PR_COUNT -->5<!-- /PR_COUNT -->
+### <!-- MERGED_PR_COUNT -->0<!-- /MERGED_PR_COUNT -->
 
-Pull Requests
+Merged PRs
 
 </td>
 
 <td align="center">
 
-### <!-- ISSUE_COUNT -->0<!-- /ISSUE_COUNT -->
+### <!-- RESOLVED_ISSUE_COUNT -->0<!-- /RESOLVED_ISSUE_COUNT -->
 
-Issues Created
+Issues Resolved
 
 </td>
 
