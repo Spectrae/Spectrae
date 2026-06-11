@@ -7,3 +7,9 @@ Building distributed microservices and applied AI pipelines. My focus is on stri
 > `build > break > fix > document > push`
 
 Prioritizing a documentation-first, hands-on approach. Focused on writing self-explanatory code, structuring repositories for seamless async onboarding, and managing independent technical workflows.
+
+## 📊 GitHub Activity
+
+- Pull Requests Opened: **<!-- PR_COUNT -->0<!-- /PR_COUNT -->**
+- Issues Created: **<!-- ISSUE_COUNT -->0<!-- /ISSUE_COUNT -->**
+- Stars Received: **<!-- STAR_COUNT -->0<!-- /STAR_COUNT -->**
