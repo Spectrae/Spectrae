@@ -10,32 +10,30 @@ Prioritizing a documentation-first, hands-on approach. Focused on writing self-e
 
 ## 📊 GitHub Activity
 
-<table width="100%">
+<table>
 <tr>
+<td align="center">
 
-<td align="center" width="33%">
-
-# <!-- PR_COUNT -->5<!-- /PR_COUNT -->
+### <!-- PR_COUNT -->5<!-- /PR_COUNT -->
 
 Pull Requests
 
 </td>
 
-<td align="center" width="33%">
+<td align="center">
 
-# <!-- ISSUE_COUNT -->0<!-- /ISSUE_COUNT -->
+### <!-- ISSUE_COUNT -->0<!-- /ISSUE_COUNT -->
 
 Issues
 
 </td>
 
-<td align="center" width="33%">
+<td align="center">
 
-# <!-- STAR_COUNT -->0<!-- /STAR_COUNT -->
+### <!-- STAR_COUNT -->0<!-- /STAR_COUNT -->
 
 Stars
 
 </td>
-
 </tr>
 </table>
