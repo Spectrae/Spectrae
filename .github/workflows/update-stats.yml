@@ -26,14 +26,9 @@ jobs:
 
             console.log(`Fetching stats for ${username}`);
 
-            const mergedPrResult =
+            const prResult =
               await github.rest.search.issuesAndPullRequests({
-                q: `author:${username} is:pr is:merged`
-              });
-
-            const resolvedIssueResult =
-              await github.rest.search.issuesAndPullRequests({
-                q: `assignee:${username} is:issue is:closed`
+                q: `author:${username} is:pr`
               });
 
             const repos = await github.paginate(
@@ -50,23 +45,23 @@ jobs:
               stars += repo.stargazers_count;
             });
 
-            const mergedPrCount = mergedPrResult.data.total_count;
-            const resolvedIssueCount = resolvedIssueResult.data.total_count;
+            const prCount = prResult.data.total_count;
+            const repoCount = repos.length;
 
-            console.log(`Merged PRs: ${mergedPrCount}`);
-            console.log(`Resolved Issues: ${resolvedIssueCount}`);
+            console.log(`PRs: ${prCount}`);
+            console.log(`Repos: ${repoCount}`);
             console.log(`Stars: ${stars}`);
 
             let readme = fs.readFileSync('README.md', 'utf8');
 
             readme = readme.replace(
-              /<!-- MERGED_PR_COUNT -->.*<!-- \/MERGED_PR_COUNT -->/,
-              `<!-- MERGED_PR_COUNT -->${mergedPrCount}<!-- /MERGED_PR_COUNT -->`
+              /<!-- PR_COUNT -->.*<!-- \/PR_COUNT -->/,
+              `<!-- PR_COUNT -->${prCount}<!-- /PR_COUNT -->`
             );
 
             readme = readme.replace(
-              /<!-- RESOLVED_ISSUE_COUNT -->.*<!-- \/RESOLVED_ISSUE_COUNT -->/,
-              `<!-- RESOLVED_ISSUE_COUNT -->${resolvedIssueCount}<!-- /RESOLVED_ISSUE_COUNT -->`
+              /<!-- REPO_COUNT -->.*<!-- \/REPO_COUNT -->/,
+              `<!-- REPO_COUNT -->${repoCount}<!-- /REPO_COUNT -->`
             );
 
             readme = readme.replace(
