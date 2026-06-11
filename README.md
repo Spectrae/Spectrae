@@ -11,5 +11,20 @@ Prioritizing a documentation-first, hands-on approach. Focused on writing self-e
 ## 📊 Impact & Output
 
 ### ⚡ Git Velocity & Contribution Overview
-```mermaid
-%% Optional: You can use a native mermaid chart here if you ever want to map out your open-source roadmap, but for live stats, we stick to the cards below.
+
+<p align="left">
+  <!-- Core Activity Stats Card -->
+  <img 
+    src="[https://github-readme-stats.vercel.app/api?username=YSpectrae&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=2f81f7&icon_color=2f81f7&text_color=c9d1d9&bg_color=0d1117](https://github-readme-stats.vercel.app/api?username=SpectraeE&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=2f81f7&icon_color=2f81f7&text_color=c9d1d9&bg_color=0d1117)" 
+    alt="Core Engineering Activity Stats" 
+    height="195" 
+  />
+  <!-- Top Languages Card -->
+  <img 
+    src="[https://github-readme-stats.vercel.app/api?username=Spectrae&layout=compact&hide_border=true&title_color=2f81f7&icon_color=2f81f7&text_color=c9d1d9&bg_color=0d1117&langs_count=5](https://github-readme-stats.vercel.app/api?username=Spectrae&layout=compact&hide_border=true&title_color=2f81f7&icon_color=2f81f7&text_color=c9d1d9&bg_color=0d1117&langs_count=5)" 
+    alt="Top Engineering Languages" 
+    height="195" 
+  />
+</p>
+
+---
