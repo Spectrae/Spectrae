@@ -24,7 +24,7 @@ Pull Requests
 
 ### <!-- ISSUE_COUNT -->0<!-- /ISSUE_COUNT -->
 
-Issues
+Issues Created
 
 </td>
 
@@ -32,7 +32,7 @@ Issues
 
 ### <!-- STAR_COUNT -->0<!-- /STAR_COUNT -->
 
-Stars
+Stars Earned
 
 </td>
 </tr>
